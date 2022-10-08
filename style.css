@@ -1,0 +1,149 @@
+@font-face{
+    font-family: "OpenSans";
+    src: url(./font/Open_Sans/OpenSans-Regular.ttf);
+}
+@font-face{
+    font-family: "Slabo27";
+    src: url(./font/Slabo_27px/Slabo27px-Regular.ttf);
+}
+a,h1,h2,h3,button{
+    font-family: "Slabo27";
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "OpenSans";
+    background-image: url(./img/fond.png);
+}
+/* --------------NAVBAR--------------- */
+header{
+    background-color: #34B1B2;
+    text-align: center;
+    border: solid #2B9AA0 5px;
+    margin-top: 70px;
+}
+nav ul li{
+    display: inline-block;
+    padding: 10px 0 ;
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 15px;
+    color: aliceblue;
+    font-size: 20px;
+}
+/* --------------MAIN--------------- */
+main{
+    max-width: 1100px;
+    min-width: 800px;
+    margin: 0 auto;
+}
+/* --------------FIRST SECTION--------------- */
+.section-1{
+    text-align: center;
+    margin: 60px;
+}
+.section-1 h2{
+    font-size: 2.5em;
+    color: #454A54;
+    font-weight: 500;
+}
+.section-1 p{
+    color: #454A54;
+}
+/* --------------SECOND SECTION--------------- */
+.section-2{
+    margin: 0 auto;
+}
+/* --------------ARTICLE--------------- */
+article{
+    width: 70%;
+    background-color: #B6DEDC;
+    padding: 20px;
+    display: inline-block;
+}
+article div{
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: justify;
+    margin: 0 30px ;
+}
+article h1{
+    font-size: 3.5em;
+    text-align: center;
+    color: #454A54;
+    font-weight: 500;
+}
+article span{
+    color: #319DA3;
+}
+article h3{
+    color: #454A54;
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: 500;
+}
+article h3 i{
+    color: #319DA3;
+}
+article img{
+    float: left;
+    border-radius: 60px;
+}
+article button{
+    float: right;
+    color: aliceblue;
+    background-color: #2B9AA0;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: all ease 0.40s;
+}
+article button:hover{
+    color: rgb(249, 168, 181);
+    background-color: aliceblue;
+}
+/* --------------ASIDE--------------- */
+aside{
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+    background-color:#34B1B2;
+    border: solid 5px #2B9AA0;
+    padding: 20px;
+    margin-left: 10px;
+    position : relative;
+}
+aside p{
+    color: white;
+}
+aside img{
+    float: right;
+    position: absolute;
+    top:-70px;
+    right: -50px;
+}
+aside h4{
+    color: #B6DEDC;
+}
+aside h2{
+    color: aliceblue;
+    font-size: 1.4em;
+    font-weight: 500;
+}
+aside span{
+    color: #B6DEDC;
+}
+/* --------------FOOTER--------------- */
+footer{
+    text-align: center;
+}
+footer img{
+    width: 60px;
+    margin-top: 20px;
+}
+footer p{
+    font-size: 10px;
+}
